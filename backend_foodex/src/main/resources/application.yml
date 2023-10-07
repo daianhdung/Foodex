@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-ckgl4t6afg7c73dhf5pg-a.singapore-postgres.render.com/foodex_database
+    username: daidung
+    password: 9MuMDlxHh4CqbMb4MCjfcLcRq7Alghhy
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: persol.project123@gmail.com
+    password: sdhfqvkdzcquvfqd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+
+server:
+  servlet:
+    context-path: /api
+
+
+
+#file:
+#  upload-dir: ${IMAGE_DIR:E:\GaraCarProject\image\}
+
