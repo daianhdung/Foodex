@@ -1,12 +1,12 @@
 <template>
-  <Header/>
-  <SideBar/>
+  <TheHeader/>
+  <TheSideBar/>
 
 </template>
 
 <script setup>
-import Header from '../../components/Header.vue';
-import SideBar from '../../components/SideBar.vue';
+import TheHeader from '../../components/TheHeader.vue';
+import TheSideBar from '../../components/TheSideBar.vue';
 
 </script>
 
