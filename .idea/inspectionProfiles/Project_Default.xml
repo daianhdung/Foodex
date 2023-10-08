@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="22">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="mdbinput" />
+            <item index="7" class="java.lang.String" itemvalue="thewelcome" />
+            <item index="8" class="java.lang.String" itemvalue="star-outlined" />
+            <item index="9" class="java.lang.String" itemvalue="file-outlined" />
+            <item index="10" class="java.lang.String" itemvalue="desktop-outlined" />
+            <item index="11" class="java.lang.String" itemvalue="user-outlined" />
+            <item index="12" class="java.lang.String" itemvalue="team-outlined" />
+            <item index="13" class="java.lang.String" itemvalue="pie-chart-outlined" />
+            <item index="14" class="java.lang.String" itemvalue="sidebar" />
+            <item index="15" class="java.lang.String" itemvalue="video-camera-outlined" />
+            <item index="16" class="java.lang.String" itemvalue="upload-outlined" />
+            <item index="17" class="java.lang.String" itemvalue="menu-unfold-outlined" />
+            <item index="18" class="java.lang.String" itemvalue="menu-fold-outlined" />
+            <item index="19" class="java.lang.String" itemvalue="unordered-list-outlined" />
+            <item index="20" class="java.lang.String" itemvalue="inbox-outlined" />
+            <item index="21" class="java.lang.String" itemvalue="book-outlined" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
