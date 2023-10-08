@@ -47,7 +47,7 @@
     </div>
     <a-layout>
       <a-layout-header style="background: #fff; font-size: 20px; padding: 0">
-        <div v-if="!hideCollapseSideBar">
+        <div v-if="!handleResize">
           <div class="d-flex align-items-center justify-content-between">
             <div style="padding-left: 20px">
               <unordered-list-outlined class="trigger" @click="() => (collapsed = !collapsed)" />
@@ -138,17 +138,16 @@ import {
 
 const selectedKeys = ref(['1']);
 const collapsed = ref(false);
-const hideCollapseSideBar = ref(false)
 
 const screenWidth = ref(window.innerWidth);
 
 const handleResize = () => {
-  screenWidth.value = window.innerWidth;
 
-  hideCollapseSideBar.value = false
+  toggleHide = false
   if(screenWidth.value <= 576) {
-    hideCollapseSideBar.value = true
+    toggleHide = true
   }
+  return toggleHide
 
 };
 
